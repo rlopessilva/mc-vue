@@ -1,11 +1,13 @@
 <template>
   <div class="menu">
-    <span>Menu</span>
-    <ul id="repeat-object" class="demo">
-      <li v-for="collab in collabList">
-        {{collab.lastName}}{{ collab.lastName}}
-      </li>
-    </ul>
+    <md-list v-for="collab in collabList" id="menu">
+      <md-list-item>
+        <md-avatar class="md-avatar-icon md-primary">
+          <md-icon md-iconset="fa fa-home"></md-icon>
+        </md-avatar>
+        <span>{{collab.firstName}}  {{ collab.lastName}}</span>
+      </md-list-item>
+    </md-list>
   </div>
 </template>
 
@@ -16,20 +18,20 @@ export default {
     return {
       collabList: [
         {
-          firstName: 'firstName User1',
-          lastName: 'LastName User1'
+          firstName: 'firstName1',
+          lastName: 'LastName1'
         },
         {
-          firstName: 'firstName User2',
-          lastName: 'LastName User2'
+          firstName: 'firstName2',
+          lastName: 'LastName2'
         },
         {
-          firstName: 'firstName User3',
-          lastName: 'LastName User3'
+          firstName: 'firstName3',
+          lastName: 'LastName3'
         },
         {
-          firstName: 'firstName User4',
-          lastName: 'LastName User4'
+          firstName: 'firstName4',
+          lastName: 'LastName4'
         }
       ]
     }
@@ -39,13 +41,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
+#menu {
+  background-color: #e0e0eb;
 }
 </style>

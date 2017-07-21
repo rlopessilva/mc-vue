@@ -1,8 +1,16 @@
 <template>
   <div class="home">
-    <menuComp></menuComp>
-    <infoCollabComp></infoCollabComp>
-    <infoMissionComp></infoMissionComp>
+    <md-layout md-align="left" md-gutter="8">
+      <md-layout md-flex="15" id="menu">
+        <span id="color5">
+          <menuComp></menuComp>
+        </span>
+      </md-layout>
+
+      <md-layout>
+        <span id="color6">center2</span>
+      </md-layout>
+    </md-layout>
   </div>
 </template>
 
@@ -23,4 +31,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#menu {
+  background-color: #e0e0eb;
+}
+#color6 {
+  background-color: #006699;
+}
 </style>
