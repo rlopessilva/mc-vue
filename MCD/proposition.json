@@ -26,8 +26,24 @@
 					"proposition_annuelle_brute_variable": ""
 				}],
 				"etat": ""
-			}]
+			}],
+			"commentaire": ""
 		}
 	}],
-	"missions": [{}]
+	"missions": [{
+		"client": "",
+		"adresse": {
+			"rue": "",
+			"code_postal": "",
+			"ville": ""
+		},
+		"mission": "",
+		"localisation": "",
+		"contact_client": "",
+		"date_debut_mission": "",
+		"date_fin_mission": "",
+		"duree_estimee": "",
+		"commercial": "",
+		"commenrtaire": ""
+	}]
 }
