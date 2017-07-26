@@ -7,8 +7,13 @@
         </span>
       </md-layout>
 
-      <md-layout>
-        <span id="color6">center2</span>
+      <md-layout md-column>
+        <md-layout>
+          <infoCollabComp></infoCollabComp>
+        </md-layout>
+        <md-layout>
+          <infoMissionComp></infoMissionComp>
+        </md-layout>
       </md-layout>
     </md-layout>
   </div>
