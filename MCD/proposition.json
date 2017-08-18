@@ -28,22 +28,26 @@
 				"etat": ""
 			}],
 			"commentaire": ""
-		}
-	}],
-	"missions": [{
-		"client": "",
-		"adresse": {
-			"rue": "",
-			"code_postal": "",
-			"ville": ""
 		},
-		"mission": "",
-		"localisation": "",
-		"contact_client": "",
-		"date_debut_mission": "",
-		"date_fin_mission": "",
-		"duree_estimee": "",
-		"commercial": "",
-		"commenrtaire": ""
+		"historique_echanges": {
+			"date_echange": "",
+			"contenu": ""
+		},
+		"missions": [{
+			"client": "",
+			"adresse": {
+				"rue": "",
+				"code_postal": "",
+				"ville": ""
+			},
+			"mission": "",
+			"localisation": "",
+			"contact_client": "",
+			"date_debut_mission": "",
+			"date_fin_mission": "",
+			"duree_estimee": "",
+			"commercial": "",
+			"commenrtaire": ""
+		}]
 	}]
 }
