@@ -22,8 +22,8 @@
 <script>
 
 import Menu from './Menu.vue'
-import infoCollab from './infoCollab.vue'
-import infoMission from './infoMission.vue'
+import infoCollab from './InfoCollab.vue'
+import infoMission from './InfoMission.vue'
 
 export default {
   components: {
