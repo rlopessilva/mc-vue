@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "javaType": "fr.softeam.mc.metier.dto.PropositionAnnuelleDTO",
+  "properties": {
+    "proposition_annuelle_brute_fixe": {
+      "type": "string"
+    },
+    "code_postal": {
+      "type": "string"
+    },
+    "proposition_annuelle_brute_variable": {
+      "type": "string"
+    }
+  }
+}

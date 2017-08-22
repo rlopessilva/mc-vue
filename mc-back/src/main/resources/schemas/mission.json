@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "javaType": "fr.softeam.mc.metier.dto.MissionDTO",
+  "properties": {
+    "client": {
+      "type": "string"
+    },
+    "adresse": {
+      "$ref": "./adresse.json"
+    },
+    "mission": {
+      "type": "string"
+    },
+    "localisation": {
+      "type": "string"
+    },
+    "contact_client": {
+      "type": "string"
+    },
+    "date_debut_mission": {
+      "type": "string"
+    },
+    "date_fin_mission": {
+      "type": "string"
+    },
+    "duree_estimee": {
+      "type": "string"
+    },
+    "commercial": {
+      "type": "string"
+    },
+    "commentaire": {
+      "type": "string"
+    }
+  }
+}

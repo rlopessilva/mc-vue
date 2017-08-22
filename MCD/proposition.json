@@ -29,10 +29,10 @@
 			}],
 			"commentaire": ""
 		},
-		"historique_echanges": {
+		"historique_echanges": [{
 			"date_echange": "",
 			"contenu": ""
-		},
+		}],
 		"missions": [{
 			"client": "",
 			"adresse": {
@@ -47,7 +47,7 @@
 			"date_fin_mission": "",
 			"duree_estimee": "",
 			"commercial": "",
-			"commenrtaire": ""
+			"commentaire": ""
 		}]
 	}]
 }

@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "javaType": "fr.softeam.mc.metier.dto.HistoriqueEchangeDTO",
+  "properties": {
+    "date_echange": {
+      "type": "string"
+    },
+    "code_postal": {
+      "contenu": "string"
+    }
+  }
+}

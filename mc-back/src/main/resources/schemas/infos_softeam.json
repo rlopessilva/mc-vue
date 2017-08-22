@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "javaType": "fr.softeam.mc.metier.dto.InfosSofteamDTO",
+  "properties": {
+    "fonction": {
+      "type": "string"
+    },
+    "indice_syntec": {
+      "type": "string"
+    },
+    "coef_syntec": {
+      "type": "string"
+    },
+    "salaire_annuel_brut": {
+      "type": "string"
+    },
+    "evolution_salariale": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "$ref": "./evolution_salariale.json"
+      }
+    },
+    "commentaire": {
+      "type": "string"
+    }
+  }
+}

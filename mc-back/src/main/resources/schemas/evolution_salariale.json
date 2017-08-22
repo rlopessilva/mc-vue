@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "javaType": "fr.softeam.mc.metier.dto.EvolutionSalarialeDTO",
+  "properties": {
+    "mois": {
+      "type": "string"
+    },
+    "annee": {
+      "type": "string"
+    },
+    "augmentation_annuelle_brute_demandee": {
+      "type": "string"
+    },
+    "proposition_annuelle": {
+      "$ref": "./proposition_annuelle.json"
+    },
+    "etat": {
+      "type": "string"
+    }
+  }
+}

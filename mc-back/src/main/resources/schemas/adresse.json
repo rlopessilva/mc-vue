@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "javaType": "fr.softeam.mc.metier.dto.AdresseDTO",
+  "properties": {
+    "rue": {
+      "type": "string"
+    },
+    "code_postal": {
+      "type": "string"
+    },
+    "ville": {
+      "type": "string"
+    }
+  }
+}
