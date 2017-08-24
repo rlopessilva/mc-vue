@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "javaType": "fr.softeam.mc.metier.dto.AdresseDTO",
+  "javaType": "fr.belthis.mc.metier.dto.AdresseDTO",
   "properties": {
     "rue": {
       "type": "string"

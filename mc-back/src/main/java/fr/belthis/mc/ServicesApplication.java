@@ -1,4 +1,4 @@
-package fr.softeam.mc;
+package fr.belthis.mc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

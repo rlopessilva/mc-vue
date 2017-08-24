@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "javaType": "fr.softeam.mc.metier.dto.PropositionAnnuelleDTO",
+  "javaType": "fr.belthis.mc.metier.dto.PropositionAnnuelleDTO",
   "properties": {
     "proposition_annuelle_brute_fixe": {
       "type": "string"

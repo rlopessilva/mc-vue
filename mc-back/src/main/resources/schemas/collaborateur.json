@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "javaType": "fr.softeam.mc.metier.dto.CollaborateurDTO",
+  "javaType": "fr.belthis.mc.metier.dto.CollaborateurDTO",
   "properties": {
     "nom": {
       "type": "string"
@@ -27,7 +27,7 @@
       "type": "string"
     },
     "infos_softeam": {
-      "$ref": "./infos_softeam.json"
+      "$ref": "./infos_entreprise.json"
     },
     "historique_echanges": {
       "type": "array",

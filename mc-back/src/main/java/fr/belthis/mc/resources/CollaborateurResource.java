@@ -1,8 +1,8 @@
-package fr.softeam.mc.resources;
+package fr.belthis.mc.resources;
 
 
-import fr.softeam.mc.metier.CollaborateurBlo;
-import fr.softeam.mc.metier.dto.CollaborateurDTO;
+import fr.belthis.mc.metier.CollaborateurBlo;
+import fr.belthis.mc.metier.dto.CollaborateurDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;

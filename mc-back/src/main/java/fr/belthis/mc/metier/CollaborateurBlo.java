@@ -1,6 +1,6 @@
-package fr.softeam.mc.metier;
+package fr.belthis.mc.metier;
 
-import fr.softeam.mc.metier.dto.CollaborateurDTO;
+import fr.belthis.mc.metier.dto.CollaborateurDTO;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

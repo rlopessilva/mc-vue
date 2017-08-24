@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "javaType": "fr.softeam.mc.metier.dto.EvolutionSalarialeDTO",
+  "javaType": "fr.belthis.mc.metier.dto.EvolutionSalarialeDTO",
   "properties": {
     "mois": {
       "type": "string"

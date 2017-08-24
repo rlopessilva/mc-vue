@@ -1,0 +1,96 @@
+{
+	"nom": "LOPES SILVA",
+	"prenom": "Ricardo",
+	"date_naissance": "01/01/1980",
+	"telephone": "0600000000",
+	"email": "mail@mail.com",
+	"adresse": {
+		"rue": "rue des champs",
+		"code_postal": "44000",
+		"ville": "Nantes"
+	},
+	"date_embauche": "01/01/2015",
+	"date_sortie": "",
+	"infos_entreprise": {
+		"fonction": "dev",
+		"indice_syntec": "",
+		"coef_syntec": "",
+		"salaire_annuel_brut": "10000",
+		"evolution_salariale": [
+			{
+				"mois": "01",
+				"annee": "2016",
+				"augmentation_annuelle_brute_demandee": "1000",
+				"proposition_annuelle": [
+					{
+						"proposition_annuelle_brute_fixe": "500",
+						"proposition_annuelle_brute_variable": "250"
+					}
+				],
+				"etat": "valide"
+			},
+			{
+				"mois": "01",
+				"annee": "2017",
+				"augmentation_annuelle_brute_demandee": "1000",
+				"proposition_annuelle": [
+					{
+						"proposition_annuelle_brute_fixe": "500",
+						"proposition_annuelle_brute_variable": "250"
+					}
+				],
+				"etat": "valide"
+			}
+		],
+		"commentaire": ""
+	},
+	"historique_echanges": [
+		{
+			"date_echange": "01/05/2015",
+			"contenu": "mail"
+		},
+		{
+			"date_echange": "01/09/2015",
+			"contenu": "mail"
+		},
+		{
+			"date_echange": "01/07/2016",
+			"contenu": "mail"
+		}
+	],
+	"missions": [
+		{
+			"client": "TOTO SA",
+			"adresse": {
+				"rue": "rue TOTO",
+				"code_postal": "code postal TOTO",
+				"ville": "TOTO VILLE"
+			},
+			"mission": "dev",
+			"localisation": "chez le client",
+			"contact_client": "TOTO",
+			"date_debut_mission": "01/01/2015",
+			"date_fin_mission": "31/12/2016",
+			"duree_estimee": "12 mois",
+			"commercial": "Commercial",
+			"commentaire": ""
+		},
+		{
+			"client": "TITI SA",
+			"adresse": {
+				"rue": "rue TITI",
+				"code_postal": "code postal TITI",
+				"ville": "TITI VILLE"
+			},
+			"mission": "dev",
+			"localisation": "chez le client",
+			"contact_client": "TITI",
+			"date_debut_mission": "01/01/2017",
+			"date_fin_mission": "",
+			"duree_estimee": "12 mois",
+			"commercial": "Commercial",
+			"commentaire": ""
+		}
+		
+	]
+}

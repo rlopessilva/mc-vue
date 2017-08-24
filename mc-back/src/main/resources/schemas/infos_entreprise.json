@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "javaType": "fr.softeam.mc.metier.dto.InfosSofteamDTO",
+  "javaType": "fr.belthis.mc.metier.dto.InfosEntrepriseDTO",
   "properties": {
     "fonction": {
       "type": "string"

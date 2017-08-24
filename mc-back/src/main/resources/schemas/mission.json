@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "javaType": "fr.softeam.mc.metier.dto.MissionDTO",
+  "javaType": "fr.belthis.mc.metier.dto.MissionDTO",
   "properties": {
     "client": {
       "type": "string"
