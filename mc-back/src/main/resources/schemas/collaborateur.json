@@ -42,6 +42,7 @@
         "type": "object",
         "$ref": "./mission.json"
       }
-    }
+    },
+    "date_modification": "string"
   }
 }
